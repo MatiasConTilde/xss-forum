@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>XSS hakcan</title>
+</head>
+
+<body>
+  <h1 class="text">Forum</h1>
+  <form action="/post_comment" method="post">
+    <input type="text" name="name" placeholder="Name"><br>
+    <textarea rows="5" cols="50" name="text" placeholder="Comment"></textarea><br>
+    <input type="submit" value="Submit">
+  </form>
+  <div>

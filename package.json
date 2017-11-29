@@ -1,0 +1,29 @@
+{
+  "name": "xss-forum",
+  "version": "1.0.0",
+  "description": "A fake forum to practise XSS ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"¯\\_(ツ)_/¯\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatiasConTilde/xss-forum.git"
+  },
+  "keywords": [
+    "xss",
+    "forum"
+  ],
+  "author": "Matías con tilde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatiasConTilde/xss-forum/issues"
+  },
+  "homepage": "https://github.com/MatiasConTilde/xss-forum#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "lowdb": "^1.0.0"
+  }
+}
