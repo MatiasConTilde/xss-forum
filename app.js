@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
     const comments = db.get('comments').value();
     let content = '';
     for (var i = 0; i < comments.length; i++) {
-        content += `<p>${comments[i].name}</p><p>${comments[i].text}</p><br>`;
+        content += `<div class="commentbox"><p class="name">${"Name: " + comments[i].name}</p><p class="comment">${comments[i].text}</p><br></div>`;
     }
 
     res.send(header + content + footer);
